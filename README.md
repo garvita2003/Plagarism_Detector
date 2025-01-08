@@ -27,18 +27,18 @@ To make our plagiarism detector easily accessible, we create a Flask web applica
 
 3. Approach2:
 - option 1 : comparing folder with Masterfile
-  plagiarism allowed: 15
-  file:test folder path -> TestFile
-  master file: main.txt path -> main.txt
+  - plagiarism allowed: 15
+  - file:test folder path -> TestFile
+  - master file: main.txt path -> main.txt
 
 - option 2: check for plagiarism in two files
-  plagiarism allowed : 20
-  file1 : sample1.txt path -> TestFile\sample1.txt
-  file2: sample2.txt path -> TestFile\sample2.txt
+  - plagiarism allowed : 20
+  - file1 : sample1.txt path -> TestFile\sample1.txt
+  - file2: sample2.txt path -> TestFile\sample2.txt
 
 - option 3: check for plagiarism in all the files in the folder
-  plagiarism allowed:20
-  file: test folder path -> TestFile
+  - plagiarism allowed:20
+  - file: test folder path -> TestFile
 
 # Technology Used:
 1. Python
@@ -53,7 +53,7 @@ To make our plagiarism detector easily accessible, we create a Flask web applica
 Approach 1:
 - Logistic Regression:
 
-  ![Screenshot 2025-01-08 124702](https://github.com/user-attachments/assets/8342df45-7aef-4c22-83f8-00f7f6e0f0aa)
+![Screenshot 2025-01-08 124702](https://github.com/user-attachments/assets/8342df45-7aef-4c22-83f8-00f7f6e0f0aa)
 
 - Random Forest:
 
