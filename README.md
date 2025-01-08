@@ -20,10 +20,10 @@ To make our plagiarism detector easily accessible, we create a Flask web applica
 # Approach:
 
 1. Approach 1:
-Model used - Logistic Regression, Random Forest, Naive Bayes and Support Vector Machine 
-pip install flask
-pip install scikit-learn==1.6.0 -> this is a version that is being showed in the jupiter notebook Plagarism_Checker_using_ML
-Run app.py and go to the web page
+- Model used - Logistic Regression, Random Forest, Naive Bayes and Support Vector Machine
+- pip install flask
+- pip install scikit-learn==1.6.0 -> this is a version that is being showed in the jupiter notebook Plagarism_Checker_using_ML
+- Run app.py and go to the web page
 
 3. Approach2:
 - option 1 : comparing folder with Masterfile
@@ -52,33 +52,41 @@ Run app.py and go to the web page
 # Overview:
 Approach 1:
 - Logistic Regression:
+
   ![Screenshot 2025-01-08 124702](https://github.com/user-attachments/assets/8342df45-7aef-4c22-83f8-00f7f6e0f0aa)
 
 - Random Forest:
-  ![Screenshot 2025-01-08 124744](https://github.com/user-attachments/assets/8a9e95e7-9d2f-4d8d-ac9b-f811101fb7d4)
+
+![Screenshot 2025-01-08 124744](https://github.com/user-attachments/assets/8a9e95e7-9d2f-4d8d-ac9b-f811101fb7d4)
 
 - Naive Bayes:
-  ![Screenshot 2025-01-08 124814](https://github.com/user-attachments/assets/9e77a54f-db1f-44ce-8c5a-3b18ad048b60)
+
+![Screenshot 2025-01-08 124814](https://github.com/user-attachments/assets/9e77a54f-db1f-44ce-8c5a-3b18ad048b60)
 
 - Support Vector Machine:
-  ![Screenshot 2025-01-08 124820](https://github.com/user-attachments/assets/b74109ff-3175-4cc7-b5dc-f49d502a510a)
+
+![Screenshot 2025-01-08 124820](https://github.com/user-attachments/assets/b74109ff-3175-4cc7-b5dc-f49d502a510a)
 
 - Implementation:
-  ![Screenshot 2025-01-08 124835](https://github.com/user-attachments/assets/9737155c-88ad-4b52-bd38-70bf4b8c5211)
 
-  Implement the above notebook example in the flask app:
+![Screenshot 2025-01-08 124835](https://github.com/user-attachments/assets/9737155c-88ad-4b52-bd38-70bf4b8c5211)
 
-  ![Screenshot 2025-01-08 125317](https://github.com/user-attachments/assets/c71ebe35-e77e-4ce5-905d-5efd85df10ff)
-  ![Screenshot 2025-01-08 125344](https://github.com/user-attachments/assets/45d28b54-2153-4451-a1eb-ede296295daf)
-  ![Screenshot 2025-01-08 125411](https://github.com/user-attachments/assets/27e7fe5e-7720-4dce-8c93-74cb0c7cc0ac)
+Implement the above notebook example in the flask app:
+
+![Screenshot 2025-01-08 125317](https://github.com/user-attachments/assets/c71ebe35-e77e-4ce5-905d-5efd85df10ff)
+![Screenshot 2025-01-08 125344](https://github.com/user-attachments/assets/45d28b54-2153-4451-a1eb-ede296295daf)
+![Screenshot 2025-01-08 125411](https://github.com/user-attachments/assets/27e7fe5e-7720-4dce-8c93-74cb0c7cc0ac)
 
 
 Approach 2:
 - Option 1:
-  ![Screenshot 2025-01-08 124023](https://github.com/user-attachments/assets/7dae416c-972d-4e71-b05a-c60a4098562a)
+  
+![Screenshot 2025-01-08 124023](https://github.com/user-attachments/assets/7dae416c-972d-4e71-b05a-c60a4098562a)
 
 - Option 2:
-  ![Screenshot 2025-01-08 124307](https://github.com/user-attachments/assets/248eb335-a9fe-4286-af53-049e3db38a9e)
+
+ ![Screenshot 2025-01-08 124307](https://github.com/user-attachments/assets/248eb335-a9fe-4286-af53-049e3db38a9e)
 
 - Option 3:
-  ![Screenshot 2025-01-08 124415](https://github.com/user-attachments/assets/db2206a0-6635-4589-bf1d-6db3de1046c1)
+
+![Screenshot 2025-01-08 124415](https://github.com/user-attachments/assets/db2206a0-6635-4589-bf1d-6db3de1046c1)
