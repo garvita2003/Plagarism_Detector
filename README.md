@@ -25,7 +25,7 @@ To make our plagiarism detector easily accessible, we create a Flask web applica
 - pip install scikit-learn==1.6.0 -> this is a version that is being showed in the jupiter notebook Plagarism_Checker_using_ML
 - Run app.py and go to the web page
 
-3. Approach2:
+2. Approach2:
 - option 1 : comparing folder with Masterfile
   - plagiarism allowed: 15
   - file:test folder path -> TestFile
