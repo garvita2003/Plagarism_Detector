@@ -17,15 +17,13 @@ We use the Term Frequency-Inverse Document Frequency (TF-IDF) vectorizer to tran
 # Creating the Flask Web Application
 To make our plagiarism detector easily accessible, we create a Flask web application. This application will provide a user interface where users can input two text documents and receive a plagiarism score.
 
-# Approach:
-
-1. Approach 1:
+# Approach 1:
 - Model used - Logistic Regression, Random Forest, Naive Bayes and Support Vector Machine
 - pip install flask
 - pip install scikit-learn==1.6.0 -> this is a version that is being showed in the jupiter notebook Plagarism_Checker_using_ML
 - Run app.py and go to the web page
 
-2. Approach2:
+# Approach2:
 - option 1 : comparing folder with Masterfile
   - plagiarism allowed: 15
   - file:test folder path -> TestFile
