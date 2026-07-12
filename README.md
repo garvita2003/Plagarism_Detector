@@ -73,7 +73,7 @@ The project demonstrates both model-driven text classification and direct string
 ## 📂 Project Structure
 
 ```
-Plagarism_Detector-main/
+Plagarism_Detector/
 ├── README.md                                      # Project documentation
 ├── Approach1/                                     # ML notebook + Flask deployment approach
 │   ├── app.py                                     # Flask app for plagiarism prediction
